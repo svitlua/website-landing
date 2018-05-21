@@ -1,0 +1,32 @@
+{
+  "name": "website-landing",
+  "version": "1.0.0",
+  "description": "Landing of a website page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svitlua/website-landing.git"
+  },
+  "author": "Svitlana S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svitlua/website-landing/issues"
+  },
+  "homepage": "https://github.com/svitlua/website-landing#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^4.0.1",
+    "gulp.spritesmith": "^6.9.0",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "normalize.scss": "^0.1.0"
+  }
+}
